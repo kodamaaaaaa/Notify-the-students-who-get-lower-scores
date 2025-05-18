@@ -1,1 +1,73 @@
-
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <title>List of students with low scores</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f9f9f9;
+      color: #444;
+      text-align: center;
+      margin-top: 80px;
+      margin-bottom: 80px;
+    }
+    h1 {
+      font-size: 1.8em;
+      margin-bottom: 40px;
+      color: #222;
+      font-weight: 600;
+    }
+    table {
+      margin: 0 auto;
+      border-collapse: collapse;
+      width: 320px;
+      background: #fff;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    thead {
+      background-color: #4a90e2;
+      color: #fff;
+      font-weight: 600;
+    }
+    th, td {
+      padding: 14px 20px;
+      font-size: 1.1em;
+    }
+    th:nth-child(2),
+    td:nth-child(2) {
+      text-align: right;
+      padding-left: 20px;
+      padding-right: 20px;
+      font-weight: 500;
+    }
+    tbody tr:hover {
+      background-color: #e8f0fe;
+      cursor: default;
+    }
+  </style>
+</head>
+<body>
+  <h1>List of students with low scores</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Score</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>太郎　やまだ</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>佐藤　健</td>
+        <td>2</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
